@@ -44,15 +44,3 @@ class GroupHelper:
         self.delete_group.window(auto_id="uxDeleteAllRadioButton").click()
         self.delete_group.window(auto_id="uxOKAddressButton").click()
 
-        # for item in root.children():
-        #     if item.text() != "Contact groups":
-        #         item.click()
-        #         time.sleep(1)
-        #         self.group_editor.window(auto_id="uxDeleteAddressButton").click()
-        #         self.delete_group = self.app.application.window(title="Delete group")
-        #         self.delete_group.window(auto_id="uxDeleteAllRadioButton").click()
-        #         self.delete_group.window(auto_id="uxOKAddressButton").click()
-        #     else:
-        #         pass
-
-
