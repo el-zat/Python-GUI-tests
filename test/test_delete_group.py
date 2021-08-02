@@ -12,3 +12,4 @@ def test_delete_group_by_name(app):
     assert len(old_list) - 1 == len(new_list)
     old_list.remove(group)
     assert sorted(old_list) == sorted(new_list)
+
