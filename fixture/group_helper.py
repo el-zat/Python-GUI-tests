@@ -39,7 +39,6 @@ class GroupHelper:
         tree.get_item([0]).get_child(group).click()
 
         self.group_editor.window(auto_id="uxDeleteAddressButton").click()
-        self.group_editor.window(auto_id="uxDeleteAddressButton").click()
 
         self.accept_delete_group()
         self.close_group_editor()
